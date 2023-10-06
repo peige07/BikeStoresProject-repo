@@ -26,7 +26,9 @@ If you enjoy the analysis and your company is looking to add an analyst you can 
    * Excel Dashboard
    * Tableau Dashboard
    * Answering Business Questions
-<BR>
+
+<img src="Images/Divider.png" width="1000" height='20'>
+
 ### Step One Ask and Identify Business Questions
 
 In this hypothetical project, we'll use a strategic combination of SQL Server Management Studio, Microsoft Excel, and Tableau to systematically address the following essential business questions:
@@ -46,23 +48,23 @@ By effectively utilizing these data analysis tools, we aim to provide insightful
 
 We'll address each of these questions by crafting two distinct executive dashboards—one in Microsoft Excel and another in Tableau. These dashboards will serve as comprehensive solutions, allowing us to filter the entire dataset by year and state for each inquiry.
 
-<BR>
+<img src="Images/Divider.png" width="1000" height='20'>
+
 ### Step Two Collect and Store Data
 
 Data was taken from a publically available data set on bike stores available at [www.sqlservertutorial.net](https://www.sqlservertutorial.net/sql-server-sample-database/)
 
 Next, a database named BikeStores was created and stored inside of Microsoft SQL Server Management Studio so that the necessary joins and queries could be performed.
 
-<BR>
+<img src="Images/Divider.png" width="1000" height='20'>
+
 ### Step Three Clean And Prepare Data
 
 Not all of our necessary data is located within one table so we will write several queries to combine the relevant data tables. This will allow us to break our query up into smaller sections to ensure accuracy.
 
-<br>
+#### Joining the first_name and last_name field
 
-#### Joining the first_name and last_name feild
-
-First I will combine the first_name and last_name field into a customers_name field, and combine the sales.orders and sales.customers table by using the customer_id key.
+First I will combine the first_name and last_name fields into a customers_name field, and combine the sales.orders and sales.customers table by using the customer_id key.
 
 **Query performed:**
 
@@ -76,7 +78,7 @@ First I will combine the first_name and last_name field into a customers_name fi
 
 #### Joining the sales.orders_items table
 
-Next I wanted to determine the total sales volume and the revenue generated. In order to do this we will combine the sales.order_items table with the table we just created using the key order_id and use the SUM functions. The GROUP BY clause was added at the end of the query to allow it to run properly with the functions being present.
+Next, I wanted to determine the total sales volume and the revenue generated. In order to do this we will combine the sales.order_items table with the table we just created using the key order_id and use the SUM functions. The GROUP BY clause was added at the end of the query to allow it to run properly with the functions being present.
 
 **Query performed:**
 
@@ -107,7 +109,7 @@ We would also like to know the names of the products which were purchased. To ad
 
 #### Joining the production.categories table
 
-Next we will insert a column for the categories of the products that were purchased. This will be done using a JOIN on the productions.categories table with the products.productions table they key category_id.
+Next, we will insert a column for the categories of the products that were purchased. This will be done using a JOIN on the productions.categories table with the products.productions table they key category_id.
 
 **Query performed:**
 
@@ -137,7 +139,7 @@ It would also be useful to be able to identify the store in which a particular s
 
 #### Using CONCAT to combine first_name and last_name of sales reps
 
-Finally I will use the CONCAT function to combine the first_name and last_name of the sales rep who made the sale. 
+Finally, I will use the CONCAT function to combine the first_name and last_name of the sales rep who made the sale. 
 
 The name data is contained in the sales.staff table. We can JOIN the sales.staff table using the staff_id field.
 
@@ -151,13 +153,15 @@ The name data is contained in the sales.staff table. We can JOIN the sales.staff
 ![6.png](attachment:0b754cb9-f061-48a4-849e-413da6d394a8.png)
 
 
-At this point our final table should include the following columns: order_id, customers, city, state, order_date, total_units, revenue, product_name, category_name, store_name and sales_rep.
+At this point, our final table should include the following columns: order_id, customers, city, state, order_date, total_units, revenue, product_name, category_name, store_name and sales_rep.
 
-The next step our of analysis would be to clean our data to remove any redundant or unnecessary data. 
+The next step of analysis would be to clean our data to remove any redundant or unnecessary data. 
 
 After looking at our completed table it appears that our data is largely free of redundancy.
 
-<BR>
+<img src="Images/Divider.png" width="1000" height='20'>
+
+
 ### Step Four Analyze Data
 
 During this stage of our project, we embark on the critical task of analyzing the data that we have acquired through our SQL queries.
@@ -201,7 +205,7 @@ This particular table enables stakeholders to track revenue patterns across a 36
 
 This table empowers stakeholders to identify the states responsible for the highest overall revenue. To visualize this data as a map chart, we initially transform our pivot table into a standard table.
 
-**Table and map visulization created:**
+**Table and map visualization created:**
 
 ![Excel Table 4.png](attachment:835a992e-0d94-445b-ad92-9121ecffb46c.png)
 <BR>
@@ -253,7 +257,9 @@ This table facilitates the identification of top merchandise purchasers among ou
 
 In implementing these tables and accompanying visualizations, we aim to provide an accessible yet comprehensive means of extracting valuable insights from our data.
 
-<BR>
+<img src="Images/Divider.png" width="1000" height='20'>
+
+
 ### Step Five Visualize and Communicate Data
 
 With all the essential pivot tables and charts in place, I proceeded to seamlessly incorporate each chart into the dedicated dashboard sheet, thereby consolidating all our data into a single location.
