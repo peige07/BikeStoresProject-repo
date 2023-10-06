@@ -29,7 +29,7 @@ If you enjoy the analysis and your company is looking to add an analyst you can 
 
 <img src="Images/Divider.png" width="1000" height='20'>
 
-### Step One Ask and Identify Business Questions
+## Step One Ask and Identify Business Questions
 
 In this hypothetical project, we'll use a strategic combination of SQL Server Management Studio, Microsoft Excel, and Tableau to systematically address the following essential business questions:
 
@@ -50,7 +50,7 @@ We'll address each of these questions by crafting two distinct executive dashboa
 
 <img src="Images/Divider.png" width="1000" height='20'>
 
-### Step Two Collect and Store Data
+## Step Two Collect and Store Data
 
 Data was taken from a publically available data set on bike stores available at [www.sqlservertutorial.net](https://www.sqlservertutorial.net/sql-server-sample-database/)
 
@@ -58,7 +58,7 @@ Next, a database named BikeStores was created and stored inside of Microsoft SQL
 
 <img src="Images/Divider.png" width="1000" height='20'>
 
-### Step Three Clean And Prepare Data
+## Step Three Clean And Prepare Data
 
 Not all of our necessary data is located within one table so we will write several queries to combine the relevant data tables. This will allow us to break our query up into smaller sections to ensure accuracy.
 
@@ -151,7 +151,7 @@ After looking at our completed table it appears that our data is largely free of
 <img src="Images/Divider.png" width="1000" height='20'>
 
 
-### Step Four Analyze Data
+## Step Four Analyze Data
 
 During this stage of our project, we embark on the critical task of analyzing the data that we have acquired through our SQL queries.
 
@@ -169,7 +169,8 @@ Additionally, we have prepared two supplementary sheets in our Excel workbook, a
 
 **Our imported table looks like this:**
 
-![Excel table 1.png](attachment:0e200191-f304-4e98-9e25-dc84dd5e1981.png)
+<img src="Images/Excel%20table%201.png" width="500">
+<BR>
 
 **Total Revenue Per Year**
 
@@ -177,8 +178,7 @@ This table serves as a tool for stakeholders to discern revenue trends spanning 
 
 **Table and bar graph created:**
 
-![Excel Table 2.png](attachment:60a71f48-a1b4-45ee-a14b-bd5446993f2d.png)
-
+<img src="Images/Excel%20Table%202.png" width="500">
 <BR>
 
 **Total Revenue Per Month**
@@ -187,7 +187,7 @@ This particular table enables stakeholders to track revenue patterns across a 36
 
 **Table and line graph created:**
 
-![Excel Table 3.png](attachment:9e2c8772-6cee-43e5-9d02-717fcc2618a3.png)
+<img src="Images/Excel%20Table%203.png" width="500">
 <BR>
 
 **Total Revenue By State**
@@ -196,7 +196,7 @@ This table empowers stakeholders to identify the states responsible for the high
 
 **Table and map visualization created:**
 
-![Excel Table 4.png](attachment:835a992e-0d94-445b-ad92-9121ecffb46c.png)
+<img src="Images/Excel%20Table%204.png" width="500">
 <BR>
 
 **Total Revenue Per Store**
@@ -205,7 +205,7 @@ This table provides insights into which stores generate the most revenue.
 
 **Table and pie chart created:**
 
-![Excel Table 5.png](attachment:fc8097a6-fc74-4024-8292-059341f4a5b4.png)
+<img src="Images/Excel%20Table%205.png" width="500">
 <BR>
 
 **Total Revenue Per Product Category**
@@ -214,7 +214,7 @@ For an understanding of which product categories contribute the most revenue, th
 
 **Table and bar graph created:**
 
-![Excel Table 6.png](attachment:2633ac3c-4e5f-4436-900b-a98957e32457.png)
+<img src="Images/Excel%20Table%206.png" width="500">
 <BR>
 
 **Total Revenue Per Product Name**
@@ -223,7 +223,7 @@ This table aids in identifying the top revenue-generating products.
 
 **Table and bar graph created:**
 
-![Excel Table 8.png](attachment:b6aae537-ddcd-4c1d-80d7-08367b7d085d.png)
+<img src="Images/Excel%20Table%208.png" width="500">
 <BR>
 
 **Total Revenue Per Sales Rep**
@@ -232,7 +232,7 @@ For discerning the highest-producing sales representatives, this table is an ess
 
 **Table and bar graph created:**
 
-![Excel Table 7.png](attachment:0f81f2c3-ddaa-4357-a368-639165a02783.png)
+<img src="Images/Excel%20Table%207.png" width="500">
 <BR>
 
 **Total Revenue Per Customer**
@@ -241,7 +241,7 @@ This table facilitates the identification of top merchandise purchasers among ou
 
 **Table and bar graph created:**
 
-![Excel Table 9.png](attachment:02c8fd91-a44b-4fcd-8b4b-1dc7d4f53d23.png)
+<img src="Images/Excel%20Table%209.png" width="500">
 <BR>
 
 In implementing these tables and accompanying visualizations, we aim to provide an accessible yet comprehensive means of extracting valuable insights from our data.
@@ -249,7 +249,7 @@ In implementing these tables and accompanying visualizations, we aim to provide 
 <img src="Images/Divider.png" width="1000" height='20'>
 
 
-### Step Five Visualize and Communicate Data
+## Step Five Visualize and Communicate Data
 
 With all the essential pivot tables and charts in place, I proceeded to seamlessly incorporate each chart into the dedicated dashboard sheet, thereby consolidating all our data into a single location.
 
@@ -257,13 +257,12 @@ We enhanced the functionality of the dashboard by introducing splicers, enabling
 
 Following some refinements to the chart and graph designs, our final executive dashboard in Excel now takes on this polished appearance.
 
-#### Excel Dashboard
+### Excel Dashboard
 
-![Excel Dashboard.png](attachment:d986ce5d-76d2-422b-a150-170d11e7268e.png)
-
+<img src="Images/Excel%20Dashboard.png" width="1000">
 <BR>
 
-#### Tableau Dashboard
+### Tableau Dashboard
 
 Our Tableau journey begins with a straightforward step: opening Tableau Public and establishing a connection with our Microsoft Excel spreadsheet.
 
@@ -277,11 +276,10 @@ The result is our Tableau Dashboard, a dynamic platform poised to offer fresh pe
 
 **Tableau Dashboard:**
 
-![Tableau VIZ.png](attachment:6e191277-4d51-4b78-9a35-083bd69b31c4.png)
+<img src="Images/Tableau%20VIZ.png" width="1000">
 <BR>
 
 You can check out the final dashboard which allows you to filter by year and state by [clicking here](https://public.tableau.com/app/profile/peige.malys/viz/BikeStore_16959163551930/Dashboard2)
-
 <BR>
 
 #### Answering Business Questions
