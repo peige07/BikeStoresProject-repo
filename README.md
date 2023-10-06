@@ -68,13 +68,12 @@ First I will combine the first_name and last_name fields into a customers_name f
 
 **Query performed:**
 
-![1 Combined First & lat name and tables.png](attachment:0e8a1331-e142-4be0-8522-65185add808f.png)
+<img src="Images/1%20Combined%20First%20%26%20lat%20name%20and%20tables.png" width="500">
 
 **Table generated:**
 
-![Table Generated 1.png](attachment:f02b5f3e-b85f-4fa4-a98f-bb7d1d660b6b.png)
-
-<br>
+<img src="Images/Table%20Generated%201.png" width="500">
+<BR>
 
 #### Joining the sales.orders_items table
 
@@ -82,29 +81,24 @@ Next, I wanted to determine the total sales volume and the revenue generated. In
 
 **Query performed:**
 
-![2 .png](attachment:e4cf063b-a1f6-4f9a-a040-b44c672ae1b1.png)
-
+<img src="Images/2%20.png" width="500">
 
 **Table generated:**
 
-![2.png](attachment:9279fde0-24b1-496e-8a50-ddf6738e7c13.png)
-
+<img src="Images/Table%202.png" width="500">
 <br>
 
 #### Joining production.products table
 
 We would also like to know the names of the products which were purchased. To add the products to our table we can JOIN the production.products table with the sales.order_items table with the product_id key.
-<br>
-<br>
+
 **Query performed:**
 
-![3.png](attachment:cfbcfde1-a9ec-42ce-ada3-26903c6ae7df.png)
-
+<img src="Images/3.png" width="500">
 
 **Table generated:**
 
-![3.png](attachment:2e96c6dd-9368-4012-8732-ea9c60ca0a5c.png)
-
+<img src="Images/Table%203.png" width="500">
 <br>
 
 #### Joining the production.categories table
@@ -113,13 +107,11 @@ Next, we will insert a column for the categories of the products that were purch
 
 **Query performed:**
 
-![4.png](attachment:54ba1e8c-54cc-4a7c-9f8e-8c65ef0be0e6.png)
-
+<img src="Images/4.png" width="500">
 
 **Table generated:**
 
-![4.png](attachment:755093cb-01ae-4eb7-9f4b-7ede093c3b73.png)
-
+<img src="Images/Table%204.png" width="500">
 <br>
 
 #### Joining sales.stores and sales.orders tables
@@ -128,13 +120,11 @@ It would also be useful to be able to identify the store in which a particular s
 
 **Query performed:**
 
-![5.png](attachment:2e2ee9c3-90f2-4df6-a0e5-e76f538316b2.png)
-
+<img src="Images/5.png" width="500">
 
 **Table generated:**
 
-![5.png](attachment:c9359441-536c-4583-9034-21273aedd3b4.png)
-
+<img src="Images/Table%205.png" width="500">
 <br>
 
 #### Using CONCAT to combine first_name and last_name of sales reps
@@ -145,12 +135,11 @@ The name data is contained in the sales.staff table. We can JOIN the sales.staff
 
 **Query performed**
 
-![6.png](attachment:edf8042a-e6ef-404b-8f30-af18a763d495.png)
-
+<img src="Images/6.png" width="500">
 
 **Table generated:**
 
-![6.png](attachment:0b754cb9-f061-48a4-849e-413da6d394a8.png)
+<img src="Images/Table%206.png" width="500">
 
 
 At this point, our final table should include the following columns: order_id, customers, city, state, order_date, total_units, revenue, product_name, category_name, store_name and sales_rep.
