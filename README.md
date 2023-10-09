@@ -9,7 +9,6 @@ If you enjoy the analysis and your company is looking to add an analyst you can 
  - **SQL using Microsoft SQL Server Management Studio**
 - **Microsoft Excel**
 - **Tableau**
-
 <BR>
 
 **5-step approach used for this analysis:**
